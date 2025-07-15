@@ -26,7 +26,6 @@ class Day2(Solution):
             if self.safe(new_list) : return True
         return False
 
-
     def part1(self):
         result =0
         line_arr = [ [int(y) for y in x.split()] for x in [line for line in self.input()] ]
